@@ -1,0 +1,2 @@
+/* 배경색이 이미지를 덮는 효과 추가 */
+  background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('mt.jpg') center center;
