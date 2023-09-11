@@ -1,0 +1,34 @@
+.bgm-box {
+    display:flex;
+    margin:5px;
+    vertical-align:middle;
+    justify-content: flex-end;
+    animation-duration: 2s;
+    animation-name: fade-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bgm-btn {
+    color: #74a150;
+    text-align: right;
+    font-family: 'Gamja Flower';
+    font-size: 5px;
+}
+
+@keyframes fade-in-out {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+.paused {
+    -webkit-animation-play-state: paused !important;
+    -moz-animation-play-state: paused !important;
+    -o-animation-play-state: paused !important; 
+    animation-play-state: paused !important;
+}
