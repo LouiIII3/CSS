@@ -1,0 +1,20 @@
+<!-- 배경음악 태그 -->
+<audio id='bgm' muted="true" autoplay="true"></audio>
+<!-- 배경음악 켜기/끄기 -->
+<div id="bgm-box" class="bgm-box paused">
+    <button class="bgm-btn" onclick="nextBgm()">
+        [♬ <span id="current-bgm"></span>]
+    </button>
+    &nbsp;
+    <button class="bgm-btn" onclick="bgmVolume('+')">
+        [ + ]
+    </button>
+    &nbsp;
+    <button class="bgm-btn" onclick="bgmVolume('-')">
+        [ - ]
+    </button>
+    &nbsp;
+    <button class="bgm-btn" onclick="toggleBgm()">
+        [<span id="bgm-status">끄기</span>]
+    </button>
+</div>
